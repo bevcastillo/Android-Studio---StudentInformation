@@ -92,6 +92,8 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
 
         this.txtIdno.setText("");
         this.txtName.setText("");
+        this.cboCourse.setSelection(0);
+        this.cboLevel.setSelection(0);
 
         //set trappings
         if((idno.equals("")) && (fullName.equals(""))){
